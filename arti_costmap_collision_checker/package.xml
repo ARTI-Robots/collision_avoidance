@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>arti_costmap_collision_checker</name>
-  <version>0.13.0</version>
+  <version>1.0.0</version>
   <description>Library and node for checking robot poses and motions for collision with a cost map.</description>
   <license>All rights reserved</license>
 
