@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>arti_collision_avoidance_msgs</name>
-  <version>0.13.0</version>
+  <version>1.0.0</version>
   <description>Message definitions used by arti_costmap_collision_checker</description>
   <license>All rights reserved</license>
 
