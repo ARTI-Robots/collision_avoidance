@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>arti_dynamic_costmap</name>
+  <version>0.13.0</version>
+  <description>Package providing an abstract interface to time costmaps which are time dependent</description>
+
+  <license>All rights reserved</license>
+
+  <maintainer email="c.muehlbacher@arti-robots.com">Clemens Mühlbacher</maintainer>
+
+  <author email="a.buchegger@arti-robots.com">Alexander Buchegger</author>
+  <author email="c.muehlbacher@arti-robots.com">Clemens Mühlbacher</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>arti_costmap_layer</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_export_depend>arti_costmap_layer</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <exec_depend>arti_costmap_layer</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

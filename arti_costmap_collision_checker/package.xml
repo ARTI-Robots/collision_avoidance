@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>arti_costmap_collision_checker</name>
+  <version>0.13.0</version>
+  <description>Library and node for checking robot poses and motions for collision with a cost map.</description>
+  <license>All rights reserved</license>
+
+  <maintainer email="c.muehlbacher@arti-robots.com">Clemens Mühlbacher</maintainer>
+
+  <author email="a.buchegger@arti-robots.com">Alexander Buchegger</author>
+  <author email="c.muehlbacher@arti-robots.com">Clemens Mühlbacher</author>
+
+  <!-- Url tags are optional, but multiple are allowed, one per tag -->
+  <!-- Optional attribute type can be: website, bugtracker, or repository -->
+  <!-- Example: -->
+  <!-- <url type="website">http://wiki.ros.org/arti_costmap_collision_checker</url> -->
+
+  <!-- The *depend tags are used to specify dependencies -->
+  <!-- Dependencies can be catkin packages or system dependencies -->
+  <!-- Examples: -->
+  <!-- Use depend as a shortcut for packages that are both build and exec dependencies -->
+  <!--   <depend>roscpp</depend> -->
+  <!--   Note that this is equivalent to the following: -->
+  <!--   <build_depend>roscpp</build_depend> -->
+  <!--   <exec_depend>roscpp</exec_depend> -->
+  <!-- Use build_depend for packages you need at compile time: -->
+  <!--   <build_depend>message_generation</build_depend> -->
+  <!-- Use build_export_depend for packages you need in order to build against this package: -->
+  <!--   <build_export_depend>message_generation</build_export_depend> -->
+  <!-- Use buildtool_depend for build tool packages: -->
+  <!--   <buildtool_depend>catkin</buildtool_depend> -->
+  <!-- Use exec_depend for packages you need at runtime: -->
+  <!--   <exec_depend>message_runtime</exec_depend> -->
+  <!-- Use test_depend for packages you need only for testing: -->
+  <!--   <test_depend>gtest</test_depend> -->
+  <!-- Use doc_depend for packages you need only for building documentation: -->
+  <!--   <doc_depend>doxygen</doc_depend> -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>angles</build_depend>
+  <build_depend>arti_collision_avoidance_msgs</build_depend>
+  <build_depend>arti_dynamic_costmap</build_depend>
+  <build_depend>arti_costmap_layer</build_depend>
+  <build_depend>costmap_2d</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>tf2</build_depend>
+  <build_depend>tf2_geometry_msgs</build_depend>
+  <build_depend>tug_bresenham</build_depend>
+  <build_depend>arti_profiling</build_depend>
+  <build_depend>arti_ros_param</build_depend>
+  <build_depend>arti_nav_core_msgs</build_depend>
+
+  <build_export_depend>angles</build_export_depend>
+  <build_export_depend>arti_collision_avoidance_msgs</build_export_depend>
+  <build_export_depend>arti_dynamic_costmap</build_export_depend>
+  <build_export_depend>arti_costmap_layer</build_export_depend>
+  <build_export_depend>costmap_2d</build_export_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>tf</build_export_depend>
+  <build_export_depend>tf2</build_export_depend>
+  <build_export_depend>tf2_geometry_msgs</build_export_depend>
+  <build_export_depend>tug_bresenham</build_export_depend>
+  <build_export_depend>arti_profiling</build_export_depend>
+  <build_export_depend>arti_ros_param</build_export_depend>
+  <build_export_depend>arti_nav_core_msgs</build_export_depend>
+
+  <exec_depend>angles</exec_depend>
+  <exec_depend>arti_collision_avoidance_msgs</exec_depend>
+  <exec_depend>arti_dynamic_costmap</exec_depend>
+  <exec_depend>arti_costmap_layer</exec_depend>
+  <exec_depend>costmap_2d</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>tf</exec_depend>
+  <exec_depend>tf2</exec_depend>
+  <exec_depend>tf2_geometry_msgs</exec_depend>
+  <exec_depend>tug_bresenham</exec_depend>
+  <exec_depend>arti_profiling</exec_depend>
+  <exec_depend>arti_ros_param</exec_depend>
+  <exec_depend>arti_nav_core_msgs</exec_depend>
+
+  <export>
+  </export>
+</package>
