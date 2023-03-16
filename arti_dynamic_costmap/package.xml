@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>arti_dynamic_costmap</name>
-  <version>0.13.0</version>
+  <version>1.0.0</version>
   <description>Package providing an abstract interface to time costmaps which are time dependent</description>
 
   <license>All rights reserved</license>
